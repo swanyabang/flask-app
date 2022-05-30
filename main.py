@@ -3,7 +3,7 @@ from lib.coin_api import CoinDataAPIClient
 from replit import db
 
 coin_api_client = CoinDataAPIClient()
-app = Flask("app")
+app = Flask(__name__)
 
 if "users" not in db:
   db["users"] = {}
