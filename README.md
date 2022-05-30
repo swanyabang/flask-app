@@ -11,7 +11,7 @@ $ python -m venv env
 $ source env/bin/activate
 
 
-$ python -m pip install --upgrade pip
+$ /opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
 
 
 # python -m pip install -r requirements.txt
